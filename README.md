@@ -1,3 +1,30 @@
+
+**How to use GetElementById and apply style using useEffect ?**
+```
+import React from 'react';
+import { useEffect } from 'react';
+
+ export default function Get_an_Element_by_ID_in_ReactJS() {
+    useEffect(() => {
+        const element = document.getElementById('h1');
+            // Manipulate the retrieved element's style
+            element.style.backgroundColor = 'red';
+            element.style.color = 'white';
+            // Add more styling properties as needed
+    }, [])
+        return (
+            <>
+                <h1 id="h1">
+                    AdiNarayana Reddy
+                </h1>
+            </>
+        );
+}
+```
+![image](https://github.com/user-attachments/assets/9c80ca18-278e-483e-879e-39bce6aa77e6)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
