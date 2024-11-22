@@ -5,12 +5,13 @@ import './App.css';
 //import Error_Boundaries_Exp from './Components/Error_Boundaries_Exp';
 //import Axios_example from './Components/Axios_example';
 //import Get_an_Element_by_ID_in_ReactJS from './Components/Get_an_Element_by_ID_in_ReactJS';
-import Stateless_Component_Exp from './Components/Stateless_Component_Exp';
+//import Stateless_Component_Exp from './Components/Stateless_Component_Exp';
+import Props_Exp_parent from './Components/Props_Exp_parent';
 
 function App() {
   return (
     <div >
-      <Stateless_Component_Exp/>
+      <Props_Exp_parent/>
     </div>
   );
 }
