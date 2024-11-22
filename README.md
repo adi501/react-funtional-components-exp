@@ -71,6 +71,14 @@ export default Props_Exp_child;
 ```
 ![image](https://github.com/user-attachments/assets/9faa486c-6c8b-4f8a-869c-a863945b6c1d)
 
+**function without a return**
+```
+function Function_without_a_return(){
+    console.log("function without a return");
+} 
+export default Function_without_a_return;
+```
+![image](https://github.com/user-attachments/assets/e58735b6-6286-41be-9379-7f68a3fc47a3)
 
 
 # Getting Started with Create React App
