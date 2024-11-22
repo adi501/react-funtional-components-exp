@@ -6,12 +6,13 @@ import './App.css';
 //import Axios_example from './Components/Axios_example';
 //import Get_an_Element_by_ID_in_ReactJS from './Components/Get_an_Element_by_ID_in_ReactJS';
 //import Stateless_Component_Exp from './Components/Stateless_Component_Exp';
-import Props_Exp_parent from './Components/Props_Exp_parent';
+//import Props_Exp_parent from './Components/Props_Exp_parent';
+import Function_without_a_return from './Components/Function_without_a_return';
 
 function App() {
   return (
     <div >
-      <Props_Exp_parent/>
+      <Function_without_a_return/>
     </div>
   );
 }
