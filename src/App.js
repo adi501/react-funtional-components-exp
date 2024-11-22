@@ -7,12 +7,13 @@ import './App.css';
 //import Get_an_Element_by_ID_in_ReactJS from './Components/Get_an_Element_by_ID_in_ReactJS';
 //import Stateless_Component_Exp from './Components/Stateless_Component_Exp';
 //import Props_Exp_parent from './Components/Props_Exp_parent';
-import Function_without_a_return from './Components/Function_without_a_return';
+//import Function_without_a_return from './Components/Function_without_a_return';
+import MAP_EXP1 from './Components/MAP_EXP1';
 
 function App() {
   return (
     <div >
-      <Function_without_a_return/>
+      <MAP_EXP1/>
     </div>
   );
 }
