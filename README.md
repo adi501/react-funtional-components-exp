@@ -23,6 +23,28 @@ import { useEffect } from 'react';
 ```
 ![image](https://github.com/user-attachments/assets/9c80ca18-278e-483e-879e-39bce6aa77e6)
 
+**Stateless Component**
+```
+import React from "react";
+
+function Stateless_Component_Exp(){
+    let count=0; // Initial data
+    const increment=()=>{
+        count+=1;
+        console.log("Count:"+count);
+    };
+    return(
+<>
+<p>Stateless Component</p>
+<p>Count:{count}</p>
+<button onClick={increment}>Click</button>
+</>
+    );
+}
+export default Stateless_Component_Exp
+```
+![image](https://github.com/user-attachments/assets/724e869b-e244-4e48-8479-bf1e1a1e6f48)
+
 
 
 # Getting Started with Create React App
