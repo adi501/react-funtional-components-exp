@@ -80,6 +80,34 @@ export default Function_without_a_return;
 ```
 ![image](https://github.com/user-attachments/assets/e58735b6-6286-41be-9379-7f68a3fc47a3)
 
+**Map Example**
+```
+import React from "react";
+
+function MAP_EXP1(){
+    const arr=[1,2,3,4,5];
+    return(<>
+    <ul>
+        {
+            arr.map(num=><li>{num}</li>)
+        }
+    </ul>
+    </>)
+};
+export default MAP_EXP1;
+```
+![image](https://github.com/user-attachments/assets/74bf0e56-085a-446c-b1f7-17fd48507c55)
+
+
+
+
+
+
+
+
+
+
+
 
 # Getting Started with Create React App
 
