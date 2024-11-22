@@ -1,4 +1,3 @@
-
 **How to use GetElementById and apply style using useEffect ?**
 ```
 import React from 'react';
@@ -44,6 +43,33 @@ function Stateless_Component_Exp(){
 export default Stateless_Component_Exp
 ```
 ![image](https://github.com/user-attachments/assets/724e869b-e244-4e48-8479-bf1e1a1e6f48)
+
+**Props Example in Funtional components**
+```
+import React from "react";
+import Props_Exp_child from './Props_EXP_child';
+
+function Props_Exp_parent(){
+    return(<>
+    <p>Parent Component</p>
+    <Props_Exp_child name="Adi" email="myEmail"/>
+    </>)
+};
+export default Props_Exp_parent;
+```
+```
+import React from "react";
+
+function Props_Exp_child(props){
+    return(<>
+    <p>Child Component</p>
+    <p>Name:{props.name}</p>
+    <p>Name:{props.email}</p>
+    </>)
+};
+export default Props_Exp_child;
+```
+![image](https://github.com/user-attachments/assets/9faa486c-6c8b-4f8a-869c-a863945b6c1d)
 
 
 
