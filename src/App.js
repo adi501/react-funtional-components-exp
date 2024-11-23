@@ -10,15 +10,14 @@ import './App.css';
 //import Function_without_a_return from './Components/Function_without_a_return';
 //import MAP_EXP1 from './Components/MAP_EXP1';
 //import Class_Components_exp from './Components/Class_Components_exp';
-import Layout from './Components/RoutingEXP/Layout';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import Layout from './Components/RoutingEXP/Layout';
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UseState_Exp from './Components/Hooks_Exp/UseState_Exp';
 
 function App() {
   return (
     <div >
-       <BrowserRouter>
-      <Layout/>
-      </BrowserRouter>
+        <UseState_Exp/>
     </div>
   );
 }
