@@ -161,6 +161,47 @@ export default UseEffect_EXP1;
 ```
 ![image](https://github.com/user-attachments/assets/e762b1ce-b37d-4769-b66b-a8bb96f1fa95)
 
+
+**UseEffect with Dependencies example**
+```
+import React from "react";
+import { useState,useEffect } from "react";
+
+export default function UseEffect_Dependencies_Exp1(){
+    const[userId,setUserId]=useState(1);
+    const[data,setData]=useState(null);
+    useEffect(()=>{
+        const fetchData=async()=>{
+            const response = await fetch(
+                `https://jsonplaceholder.typicode.com/users/${userId}`
+              );
+              const result = await response.json();
+              setData(result);
+        }
+        fetchData();
+    },[userId]);
+    return(<>
+    <h2>Data Fetching with Dependencies</h2>
+    <label>User ID: </label>
+    <input type="number" value={userId} 
+    onChange={(e)=>setUserId(e.target.value)}></input>
+    {data&&(<div>
+        <h3>User Details:</h3>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+        </div>)}
+    </>)
+};
+```
+![image](https://github.com/user-attachments/assets/3c49a1d9-3e08-4a70-a0f2-5676db9e8437)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
