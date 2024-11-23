@@ -195,8 +195,9 @@ export default function UseEffect_Dependencies_Exp1(){
 ![image](https://github.com/user-attachments/assets/3c49a1d9-3e08-4a70-a0f2-5676db9e8437)
 
 **useReducer() Hook example**
-![image](https://github.com/user-attachments/assets/3e65f6ab-9a6b-41bd-a35f-252636d4311d)
 
+
+![image](https://github.com/user-attachments/assets/3e65f6ab-9a6b-41bd-a35f-252636d4311d)
 ![image](https://github.com/user-attachments/assets/7d9c6cc3-4706-4b70-b4ae-35e10218ddb2)
 
 
