@@ -17,12 +17,13 @@ import './App.css';
 //import UseEffect_Dependencies_Exp1 from './Components/Hooks_Exp/UseEffect_Dependencies_Exp1';
 //import Parent from './Components/Hooks_Exp/UseContext_Exp/Parent';
 //import UseReducer_Exp from './Components/Hooks_Exp/UseReducer_Exp';
-import UseCallbackParent from './Components/Hooks_Exp/useCallback_Exp/UseCallbackParent';
+//import UseCallbackParent from './Components/Hooks_Exp/useCallback_Exp/UseCallbackParent';
+import UseMemoEXP from './Components/Hooks_Exp/UseMemoEXP';
 
 function App() {
   return (
     <div >
-        <UseCallbackParent/>
+        <UseMemoEXP/>
     </div>
   );
 }
