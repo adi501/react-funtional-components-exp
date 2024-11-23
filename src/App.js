@@ -8,12 +8,13 @@ import './App.css';
 //import Stateless_Component_Exp from './Components/Stateless_Component_Exp';
 //import Props_Exp_parent from './Components/Props_Exp_parent';
 //import Function_without_a_return from './Components/Function_without_a_return';
-import MAP_EXP1 from './Components/MAP_EXP1';
+//import MAP_EXP1 from './Components/MAP_EXP1';
+import Class_Components_exp from './Components/Class_Components_exp';
 
 function App() {
   return (
     <div >
-      <MAP_EXP1/>
+      <Class_Components_exp/>
     </div>
   );
 }
