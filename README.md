@@ -98,14 +98,23 @@ export default MAP_EXP1;
 ```
 ![image](https://github.com/user-attachments/assets/74bf0e56-085a-446c-b1f7-17fd48507c55)
 
-
-
-
-
-
-
-
-
+**Class Components In React**
+```
+import React from 'react';
+class Class_Components_exp extends React.Component {
+    constructor() {
+      super();
+      this.state = {color: "red"};
+    }
+    render() {
+      return <>
+      <h2>Class Components exp</h2>
+      <p>I am a {this.state.color} Car!</p></>;
+    }
+  }
+  export default Class_Components_exp;
+```
+![image](https://github.com/user-attachments/assets/ba150b4f-45ea-4cf8-8037-376c662e6079)
 
 
 
