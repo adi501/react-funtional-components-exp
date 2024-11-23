@@ -12,12 +12,13 @@ import './App.css';
 //import Class_Components_exp from './Components/Class_Components_exp';
 //import Layout from './Components/RoutingEXP/Layout';
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UseState_Exp from './Components/Hooks_Exp/UseState_Exp';
+//import UseState_Exp from './Components/Hooks_Exp/UseState_Exp';
+import UseEffect_EXP1 from './Components/Hooks_Exp/UseEffect_EXP1';
 
 function App() {
   return (
     <div >
-        <UseState_Exp/>
+        <UseEffect_EXP1/>
     </div>
   );
 }
