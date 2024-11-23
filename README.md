@@ -116,6 +116,27 @@ class Class_Components_exp extends React.Component {
 ```
 ![image](https://github.com/user-attachments/assets/ba150b4f-45ea-4cf8-8037-376c662e6079)
 
+****Hooks****
+**UseState hook Example**
+```
+import { useState } from "react";
+
+export default function UseState_Exp()
+{
+    const[count,setCount]=useState(0);
+    const handleClick=()=>
+    {
+                setCount(count + 1);
+    }
+    return (<>
+    <h5>useState Hook Exp</h5>
+    <div>Count: {count}</div>
+    <button onClick={handleClick}>Count ++</button>
+    </>);
+} 
+```
+![image](https://github.com/user-attachments/assets/5fa38661-0d98-431c-878a-abd3b58ac555)
+
 
 
 # Getting Started with Create React App
