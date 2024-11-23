@@ -204,7 +204,9 @@ export default function UseEffect_Dependencies_Exp1(){
 
 ![image](https://github.com/user-attachments/assets/e6ade3fb-4290-4ef5-a4a5-b3c086ced441)
 
-
+**useMemo() Example**
+![image](https://github.com/user-attachments/assets/8dc4189f-103d-439d-bfa6-8fc876baf47d)
+![image](https://github.com/user-attachments/assets/04f70417-3ad5-4890-8888-63768b74c0bd)
 
 # Getting Started with Create React App
 
