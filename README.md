@@ -136,8 +136,30 @@ export default function UseState_Exp()
 } 
 ```
 ![image](https://github.com/user-attachments/assets/5fa38661-0d98-431c-878a-abd3b58ac555)
+**useEffect() Example**
+```
+import React, { useEffect } from "react";
 
-
+function UseEffect_EXP1() {
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/posts/1"
+      );
+      const result = await response.json();
+      console.log("Title:", result.title);
+    };
+    fetchData();
+  }, []); 
+  return (
+    <div>
+      <p>Data is being fetched...</p>
+    </div>
+  );
+}
+export default UseEffect_EXP1;
+```
+![image](https://github.com/user-attachments/assets/e762b1ce-b37d-4769-b66b-a8bb96f1fa95)
 
 # Getting Started with Create React App
 
