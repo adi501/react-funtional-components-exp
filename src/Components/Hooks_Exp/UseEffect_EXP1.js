@@ -11,7 +11,6 @@ function UseEffect_EXP1() {
     };
     fetchData();
   }, []); 
-
   return (
     <div>
       <p>Data is being fetched...</p>
@@ -19,3 +18,4 @@ function UseEffect_EXP1() {
   );
 }
 export default UseEffect_EXP1;
+ 

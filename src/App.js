@@ -13,12 +13,13 @@ import './App.css';
 //import Layout from './Components/RoutingEXP/Layout';
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import UseState_Exp from './Components/Hooks_Exp/UseState_Exp';
-import UseEffect_EXP1 from './Components/Hooks_Exp/UseEffect_EXP1';
+//import UseEffect_EXP1 from './Components/Hooks_Exp/UseEffect_EXP1';
+import UseEffect_Dependencies_Exp1 from './Components/Hooks_Exp/UseEffect_Dependencies_Exp1';
 
 function App() {
   return (
     <div >
-        <UseEffect_EXP1/>
+        <UseEffect_Dependencies_Exp1/>
     </div>
   );
 }
