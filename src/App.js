@@ -18,12 +18,13 @@ import './App.css';
 //import Parent from './Components/Hooks_Exp/UseContext_Exp/Parent';
 //import UseReducer_Exp from './Components/Hooks_Exp/UseReducer_Exp';
 //import UseCallbackParent from './Components/Hooks_Exp/useCallback_Exp/UseCallbackParent';
-import UseMemoEXP from './Components/Hooks_Exp/UseMemoEXP';
+//import UseMemoEXP from './Components/Hooks_Exp/UseMemoEXP';
+import UseRef_Exp from './Components/Hooks_Exp/UseRef_Exp';
 
 function App() {
   return (
     <div >
-        <UseMemoEXP/>
+        <UseRef_Exp/>
     </div>
   );
 }
