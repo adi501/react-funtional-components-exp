@@ -200,6 +200,9 @@ export default function UseEffect_Dependencies_Exp1(){
 ![image](https://github.com/user-attachments/assets/3e65f6ab-9a6b-41bd-a35f-252636d4311d)
 ![image](https://github.com/user-attachments/assets/7d9c6cc3-4706-4b70-b4ae-35e10218ddb2)
 
+**useCallback() Example**
+
+![image](https://github.com/user-attachments/assets/e6ade3fb-4290-4ef5-a4a5-b3c086ced441)
 
 
 
