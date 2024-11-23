@@ -9,12 +9,16 @@ import './App.css';
 //import Props_Exp_parent from './Components/Props_Exp_parent';
 //import Function_without_a_return from './Components/Function_without_a_return';
 //import MAP_EXP1 from './Components/MAP_EXP1';
-import Class_Components_exp from './Components/Class_Components_exp';
+//import Class_Components_exp from './Components/Class_Components_exp';
+import Layout from './Components/RoutingEXP/Layout';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div >
-      <Class_Components_exp/>
+       <BrowserRouter>
+      <Layout/>
+      </BrowserRouter>
     </div>
   );
 }
