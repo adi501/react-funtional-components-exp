@@ -208,6 +208,33 @@ export default function UseEffect_Dependencies_Exp1(){
 ![image](https://github.com/user-attachments/assets/8dc4189f-103d-439d-bfa6-8fc876baf47d)
 ![image](https://github.com/user-attachments/assets/04f70417-3ad5-4890-8888-63768b74c0bd)
 
+**When to use useLayoutEffect() Hook?**
+ 	For example, below the paragraph element style(bold/ normal) is dependent on the side effect data, then we use useLayoutEffect. 
+![image](https://github.com/user-attachments/assets/a15d55ad-2ad4-444a-aaa4-28bef9a89466)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
