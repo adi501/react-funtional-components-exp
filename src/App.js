@@ -15,12 +15,13 @@ import './App.css';
 //import UseState_Exp from './Components/Hooks_Exp/UseState_Exp';
 //import UseEffect_EXP1 from './Components/Hooks_Exp/UseEffect_EXP1';
 //import UseEffect_Dependencies_Exp1 from './Components/Hooks_Exp/UseEffect_Dependencies_Exp1';
-import Parent from './Components/Hooks_Exp/UseContext_Exp/Parent';
+//import Parent from './Components/Hooks_Exp/UseContext_Exp/Parent';
+import UseReducer_Exp from './Components/Hooks_Exp/UseReducer_Exp';
 
 function App() {
   return (
     <div >
-        <Parent/>
+        <UseReducer_Exp/>
     </div>
   );
 }
