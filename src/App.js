@@ -22,12 +22,14 @@ import './App.css';
 //import UseRef_Exp from './Components/Hooks_Exp/UseRef_Exp';
 //import UseLayoutEffectEXP from './Components/Hooks_Exp/UseLayoutEffectEXP';
 //import UseLayoutEffect_EXP2_use from './Components/Hooks_Exp/UseLayoutEffect_EXP2_use';
-import UseCustomHookUse from './Components/Hooks_Exp/UseCustomHooks_EXP/UseCustomHookUse';
+//import UseCustomHookUse from './Components/Hooks_Exp/UseCustomHooks_EXP/UseCustomHookUse';
+import HocUse from './Components/HOC/HocUse';
+
 
 function App() {
   return (
     <div >
-        <UseCustomHookUse/>
+        <HocUse/>
     </div>
   );
 }
