@@ -27,13 +27,14 @@ import './App.css';
 import CounterComponent from './Components/Redux/CounterComponent';
 import store from './Components/Redux/Store';
 import { Provider } from 'react-redux';
-
+import CounterComponent1 from './Components/Redux/CounterComponent1'
 
 function App() {
   return (
     <div >
       <Provider store={store}>
         <CounterComponent/>
+        <CounterComponent1/>
         </Provider>
     </div>
   );
