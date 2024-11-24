@@ -23,14 +23,18 @@ import './App.css';
 //import UseLayoutEffectEXP from './Components/Hooks_Exp/UseLayoutEffectEXP';
 //import UseLayoutEffect_EXP2_use from './Components/Hooks_Exp/UseLayoutEffect_EXP2_use';
 //import UseCustomHookUse from './Components/Hooks_Exp/UseCustomHooks_EXP/UseCustomHookUse';
-import HocUse from './Components/HOC/HocUse';
-//import CounterComponent from './Components/Redux/CounterComponent';
+//import HocUse from './Components/HOC/HocUse';
+import CounterComponent from './Components/Redux/CounterComponent';
+import store from './Components/Redux/Store';
+import { Provider } from 'react-redux';
 
 
 function App() {
   return (
     <div >
-        <HocUse/>
+      <Provider store={store}>
+        <CounterComponent/>
+        </Provider>
     </div>
   );
 }
